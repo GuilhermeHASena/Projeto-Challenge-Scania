@@ -14,7 +14,7 @@ import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "TB_PERGUNTA")
+@Table(name = "TB_USUARIO")
 public class Usuario {
 	
 	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator="usuarioSequence")
