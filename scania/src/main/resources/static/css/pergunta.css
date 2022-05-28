@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Fahkwang:wght@300;500&family=Poppins:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container-principal{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 100%;
+}
+form{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.form-title{
+    margin-top: 7vh;
+    color: #00275D;
+    font-size: 5vh;
+}
+.form-content{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3vh;
+    width: 60%;
+}
+.form-text{
+    font-size: 2.5vh;
+    margin-top: 8vh;
+}
+.form-content-bot{
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 8vh;
+}
+.radio-label{
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+.radio-input{
+    margin-right: 0.5vw;
+    margin-top: 2vh;
+    display: none;
+}
+.radio-input:checked + .radio-radio::after{
+    transform: scale(1);
+}
+.radio-radio{
+    width: 1.25vw;
+    height: 1.25vw;
+    border: 2px solid #00275D;
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin-right: 1vw;
+    margin-top: 5vh;
+    padding: 2px;
+}
+.radio-radio::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: block;
+    background: #00275D;
+    transform: scale(0);
+    transition: transform 0.15s;
+}
+.radio-texto{
+    font-size: 2.3vh;
+    margin-top: 5vh;
+    color: #00275D;
+}
+.caixa-botao{
+    display: flex;
+    flex-flow: row-reverse;
+    align-items: center;
+    justify-content: flex-start;
+    width: 64vw;
+}
+.form-buttom{
+    width: 20vh;
+    height: 6vh;
+    margin: 8vh;
+    background-color: #00275D;
+    color: white;
+    border-radius: 1.3vh;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2vh;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+.form-buttom:hover{
+    background-color: #003b8f;
+    transition: all 0.3s ease 0s;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-spring4-4.dtd">
+<html lang="pt-br" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" th:href="@{/css/pergunta.css}">
+    <title>Pergunta</title>
+</head>
+<body>
+    <div class="container-principal">
+        <h2 class="form-title">Pergunta</h2>
+        <form action="#" method="post">
+            <div class="form-content">
+                <p class="form-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quibusdam maxime consectetur! Nemo reprehenderit debitis ipsum illum consectetur nostrum. Rerum dolor. Lorem ipsum dolor sit amet?</p>
+                    <div class="form-content-bot">
+                        <label for="opcao1" class="radio-label">
+                            <input type="radio" class="radio-input" name="escolha" id="opcao1" value="1">
+                            <div class="radio-radio"></div>
+                            <p class="radio-texto">Opção 1 Lorem</p>
+                        </label>
+                        <label for="opcao2" class="radio-label">
+                            <input type="radio" class="radio-input" name="escolha" id="opcao2" value="2">
+                            <div class="radio-radio"></div>
+                            <p class="radio-texto">Opção 2 Lorem</p>
+                        </label>
+                        <label for="opcao3" class="radio-label">
+                            <input type="radio" class="radio-input" name="escolha" id="opcao3" value="3">
+                            <div class="radio-radio"></div>
+                            <p class="radio-texto">Opção 3 Lorem</p>
+                        </label>
+                        <label for="opcao4" class="radio-label">
+                            <input type="radio" class="radio-input" name="escolha" id="opcao4" value="4">
+                            <div class="radio-radio"></div>
+                            <p class="radio-texto">Opção 4 Lorem</p>
+                        </label>
+                    </div>
+            </div>
+            <div class="caixa-botao">
+                <button type="submit" class="form-buttom">Próxima Pergunta</button> 
+            </div>
+        </form>
+    </div>
+</body>
+</html>
