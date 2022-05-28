@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan({"br.com.scania.config"})
+@ComponentScan({"br.com.scania.controller, br.com.scania.config"})
 public class ScaniaApplication {
 
 	public static void main(String[] args) {
